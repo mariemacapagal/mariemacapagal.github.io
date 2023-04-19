@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marie Macapagal</title>
+
+    <!-- --------- Scroll Reveal Library --------- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- --------- Swiper Library --------- -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- --------- Unicons Icons --------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- --------- Font Awesome Icons --------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- --------- CSS Files --------- -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header class="scrolled">
+        <!-- --------- Navbar --------- -->
+        <nav class="container">
+            <img src="./assets/logo.png" class="logo">
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="./index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="./portfolio.html" class="nav-link active">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <i class="uil uil-moon toggle-btn"></i>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- --------- Portfolio Section --------- -->
+        <section class="portfolio section" id="portfolio">
+            <div class="modal">
+                <div class="modal-overlay"></div>
+                <div class="slider-wrap">
+                    <div class="prev-btn navigation">
+                        <i class="uil uil-angle-left-b"></i>
+                    </div>
+                    <div class="images">
+                        <img class="showImage" src="assets/project1.png">
+                        <img src="assets/port2.png">
+                        <img src="assets/port3.jpg">
+                        <img src="assets/port4.png">
+                        <img src="assets/port5.png">
+                        <img src="assets/port6.jpg">
+                    </div>
+                    <div class="next-btn navigation">
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="portfolio-header">
+                    <div class="portfolio-title">
+                        <h3 class="sub-heading">Portfolio</h3>
+                        <h1 class="heading">Latest Projects</h1>
+                    </div>
+                    <div class="filter-btns">
+                        <button class="filter-btn" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter=".school">School Projects</button>
+                        <button class="filter-btn" data-filter=".passion">Passion Projects</button>
+                        <button class="filter-btn" data-filter=".commission">Commission Works</button>
+                    </div>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="mix prt-card commission">
+                        <div class="prt-image">
+                            <img src="/assets/project1.png" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="#" class="prt-icon" style="--i: .15s">
+                                    <i class="uil uil-link-h"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>StarBox Cafe</h3>
+                            <a href="#" class="btn secondary-btn sm">Read more</a>
+                        </div>
+                    </div>
+                    <div class="mix prt-card school">
+                        <div class="prt-image">
+                            <img src="/assets/port2.png" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="#" class="prt-icon" style="--i: .15s">
+                                    <i class="uil uil-link-h"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>Title Two</h3>
+                            <a href="#" class="btn secondary-btn sm">Read more</a>
+                        </div>
+                    </div>
+                    <div class="mix prt-card passion">
+                        <div class="prt-image">
+                            <img src="/assets/port3.jpg" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="#" class="prt-icon" style="--i: .15s">
+                                    <i class="uil uil-link-h"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>Title Three</h3>
+                            <a href="#" class="btn secondary-btn sm">Read more</a>
+                        </div>
+                    </div>
+                    <div class="mix prt-card commission">
+                        <div class="prt-image">
+                            <img src="/assets/port4.png" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="#" class="prt-icon" style="--i: .15s">
+                                    <i class="uil uil-link-h"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>Title Four</h3>
+                            <a href="./portfolio.html" class="btn secondary-btn sm">Read more</a>
+                        </div>
+                    </div>
+                    <div class="mix prt-card school">
+                        <div class="prt-image">
+                            <img src="/assets/port5.png" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="#" class="prt-icon" style="--i: .15s">
+                                    <i class="uil uil-link-h"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>Title Five</h3>
+                            <a href="#" class="btn secondary-btn sm">Read more</a>
+                        </div>
+                    </div>
+                    <div class="mix prt-card passion">
+                        <div class="prt-image">
+                            <img src="/assets/port6.jpg" alt="">
+                            <div class="prt-overlay">
+                                <span class="prt-icon zoom-icon" style="--i: 0s">
+                                    <i class="uil uil-search-plus"></i>
+                                </span>
+                                <a href="#" class="prt-icon" style="--i: .15s">
+                                    <i class="uil uil-link-h"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="prt-desc">
+                            <h3>Title Six</h3>
+                            <a href="#" class="btn secondary-btn sm">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------- Contact Section --------- -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact-info">
+                    <h3 class="sub-heading">Contact me</h3>
+                    <h1 class="heading">Let's work together</h1>
+                    <p class="text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <a href="mailto:emariemacapagal@gmail.com" class="mail">emariemacapagal@gmail.com
+                        <i class="uil uil-arrow-right"></i>
+                    </a>
+                </div>
+
+                <form action="index.html" class="contact-form">
+                    <h3>Send me a message</h3>
+                    <input type="text" class="form-input" placeholder="Your Name" required>
+                    <input type="email" class="form-input" placeholder="Your Email" required>
+                    <textarea class="form-input" placeholder="Project Details" required></textarea>
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- --------- Footer --------- -->
+        <div class="container">
+            <a href="#" class="logo-name">Marie <span>Macapagal</span></a>
+            <p class="text">&copy; Copyright 2023. All rights reserved.</p>
+            <ul class="social-media">
+                <li>
+                    <a href="" class="social-link">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="social-link">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="social-link">
+                        <i class="uil uil-behance"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
