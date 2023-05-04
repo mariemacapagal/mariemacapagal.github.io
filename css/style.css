@@ -379,7 +379,7 @@ body.open .hamburger .bar:last-child {
 /* --------------- Showcase Area Styling --------------- */
 .showcase-area {
   padding: 120px 0;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
   position: relative;
   background-color: var(--bg-color-2);
