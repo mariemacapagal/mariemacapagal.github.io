@@ -647,7 +647,6 @@ body.open .hamburger .bar:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 
 .prt-image img {
@@ -695,7 +694,6 @@ body.open .hamburger .bar:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   transform: translateY(15px);
   opacity: 0;
   transition: 0.3s;
