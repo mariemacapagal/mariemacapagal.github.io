@@ -650,7 +650,7 @@ body.open .hamburger .bar:last-child {
 
 .prt-image img {
   width: 105%;
-  object-fit: contain;
+  height: 100%
 }
 
 .prt-desc {
