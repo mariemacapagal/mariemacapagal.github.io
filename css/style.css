@@ -646,11 +646,10 @@ body.open .hamburger .bar:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  object-fit: cover;
 }
 
 .prt-image img {
-
+width: 105%;
 }
 
 .prt-desc {
