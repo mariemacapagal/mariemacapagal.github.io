@@ -9,6 +9,25 @@ body::-webkit-scrollbar {
 }
 */
 
+/* --------------- Video --------------- */
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+video::-moz-media-controls {
+    display: none !important;
+}
+
+video::-ms-media-controls {
+    display: none !important;
+}
+
+video::media-controls {
+    display: none !important;
+}
+
+
 /* --------------- Website Theme --------------- */
 
 :root {
